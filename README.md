@@ -49,6 +49,9 @@ Projenin en kritik adımlarından biri, gelecekteki DL modelleri için veri haz�
 * **İçerik:** Her bir XML dosyası, ilgili görüntüdeki her bir hata için koordinatları (`xmin, ymax, xmax, ymin`) ve sınıf etiketini içerir.
 * **Amaç:** Bu etiketli veriler, ileride **YOLO** veya **Faster R-CNN** gibi Derin Öğrenme tabanlı Nesne Tespiti modellerini eğitmeyi ve referans kart bağımlılığını tamamen ortadan kaldırmayı sağlayacaktır. 
 
+##Kullanılan Veri Seti
+https://www.kaggle.com/datasets/akhatova/pcb-defects
+
 ## 🛠️ Kurulum ve Çalıştırma
 
 ### Gereksinimler
@@ -61,3 +64,5 @@ Projenin en kritik adımlarından biri, gelecekteki DL modelleri için veri haz�
 
 ```bash
 pip install opencv-python numpy matplotlib
+
+
